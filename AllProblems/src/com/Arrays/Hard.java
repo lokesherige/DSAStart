@@ -4,7 +4,8 @@ public class Hard {
     public static void main(String[] args) {
         System.out.println(findNCRPosElement(5,4));
     }
-    
+
+    // return postion value at row and column(n,r)
     public static int findNCRPosElement(int row,int col){
         int ans=1;
         for(int i=0;i<col; i++){
